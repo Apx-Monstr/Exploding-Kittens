@@ -18,6 +18,12 @@ Shuffle Card 🔀: Restart the game with a new deck of 5 cards.
 😼💣😸[https://explodingkittensgame.vercel.app/](https://explodingkittensgame.vercel.app/)
 
 ## ScreenShots
+![Login Screen](https://github.com/Apx-Monstr/Exploding-Kittens/assets/106424104/170aec03-f9fe-4830-bf11-9d9f06ca474a)
+![Home Screen](https://github.com/Apx-Monstr/Exploding-Kittens/assets/106424104/3f8bec38-548b-49aa-8436-047dc941a4e5)
+![Game Screen](https://github.com/Apx-Monstr/Exploding-Kittens/assets/106424104/8ebae5d2-ada8-41be-8ca1-5999eeb68d1a)
+![Game Lost Screen](https://github.com/Apx-Monstr/Exploding-Kittens/assets/106424104/b08a405f-f387-4c23-8248-491c87060b88)
+![Game Won Screen](https://github.com/Apx-Monstr/Exploding-Kittens/assets/106424104/45d9b950-f2b9-4819-b182-1a0e0bcf409a)
+![Leaderboard Screen](https://github.com/Apx-Monstr/Exploding-Kittens/assets/106424104/b1005a10-bbeb-4449-9cbe-422e4bfecf2b)
 
 ## Project Setup
 To set up the project, ensure you have the following prerequisites installed on your system:
