@@ -13,7 +13,7 @@ const Rank = ({data, rank}) => {
 function LeaderBoard() {
     const [leaderboard, setLeaderBoard] = useState([]);
     useEffect(()=>{
-        axios.get("http://localhost:8975/leaderboard")
+        axios.get("https://exploding-kittens-qaob.onrender.com/leaderboard")
         .then(response =>{
             let res = response.data.sort((a,b)=>b.points-a.points)
             setLeaderBoard(res);

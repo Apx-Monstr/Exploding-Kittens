@@ -33,7 +33,7 @@ const Game = () =>{
                 username: username,
                 result: "win"
             }
-            axios.post('http://localhost:8975/savegameresult', datatoSend)
+            axios.post('https://exploding-kittens-qaob.onrender.com/savegameresult', datatoSend)
             .then(response =>{
                 console.log(response)
             })
@@ -51,7 +51,7 @@ const Game = () =>{
                     username: username,
                     result: "win"
                 }
-                axios.post('http://localhost:8975/savegameresult', datatoSend)
+                axios.post('https://exploding-kittens-qaob.onrender.com/savegameresult', datatoSend)
                 .then(response =>{
                     console.log(response)
                 })
@@ -63,7 +63,7 @@ const Game = () =>{
 
     const getDecks = async ()=>{
         try {
-            axios.get("http://localhost:8975/startgame")
+            axios.get("https://exploding-kittens-qaob.onrender.com/startgame")
             .then(response=>{
                 console.log(response.data)
                 const {gameId, deck} = response.data

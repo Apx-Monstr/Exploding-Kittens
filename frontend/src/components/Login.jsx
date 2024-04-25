@@ -12,7 +12,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      axios.post('http://localhost:8975/login', { username, password })
+      axios.post('https://exploding-kittens-qaob.onrender.com/login', { username, password })
       .then(response =>{
         console.log(response.data)
         // dispatch(setUsername(response.data.username));
